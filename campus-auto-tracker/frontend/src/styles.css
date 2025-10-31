@@ -1,0 +1,3 @@
+body { font-family: Arial, sans-serif; }
+.topbar { padding: 8px 12px; background: #f3f3f3; }
+.card { padding: 12px; border-radius: 8px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
