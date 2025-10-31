@@ -1,12 +1,9 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "server.js" }
-  ]
-}
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Campus Auto Tracker running successfully!");
+});
+
+module.exports = app; // ✅ Export app for Vercel
+
